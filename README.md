@@ -1,7 +1,7 @@
 # VulnStrike
 
 [![Python Version](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/)
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+
 [![GitHub Stars](https://img.shields.io/github/stars/ashwyni-mishra/vulnstrike?style=social)](https://github.com/ashwyni-mishra/vulnstrike)
 
 **VulnStrike** is a professional-grade Bug Bounty and Security Automation framework. It streamlines the entire process of security testing, from reconnaissance to proof-of-concept validation, delivering comprehensive Markdown reports for security researchers and teams.
