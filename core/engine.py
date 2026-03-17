@@ -7,7 +7,7 @@ from surface.endpoint_discovery import EndpointDiscoverer
 from intel.cve_lookup import CVELookup
 from scanning.vuln_scan import VulnScanner
 from exploit.poc_tests import POCTester
-from reporting.markdown_report import ReportGenerator
+from reporting.pdf_report import PDFReportGenerator
 
 logger = logging.getLogger("vulnstrike")
 
@@ -78,6 +78,6 @@ class Engine:
 
         # Generate Report
         logger.info(f"Generating report at {self.report_file}")
-        reporter = ReportGenerator(self.state, self.report_file)
+        reporter = PDFReportGenerator(self.state, self.report_file)
         reporter.generate()
         logger.info("VulnStrike completed successfully.")

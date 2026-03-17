@@ -3,3 +3,4 @@ tqdm
 aiohttp
 requests
 beautifulsoup4
+fpdf2
